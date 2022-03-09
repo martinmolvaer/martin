@@ -3,7 +3,9 @@ export default function Home() {
     <div className="home">
       <div>
         <h1 className="title">Martin M.</h1>
-        <p>martin@molvaer.no</p>
+        <a href="mailto:martin@molvaer.no">
+          <span className="mail">martin.molvaer.no</span>
+        </a>
       </div>
     </div>
   );
