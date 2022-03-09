@@ -1,7 +1,10 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Martin M.</h1>
+    <div className="home">
+      <div>
+        <h1 className="title">Martin M.</h1>
+        <p>martin@molvaer.no</p>
+      </div>
     </div>
   );
 }
