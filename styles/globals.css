@@ -20,8 +20,35 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
+}
+
+.container {
+  width: 80%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-wrapper {
+  position: absolute;
+  padding: 2em;
+  width: 90%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.nav-item {
+  margin-right: 1em;
 }
 
 .title {
