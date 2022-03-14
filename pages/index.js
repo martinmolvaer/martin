@@ -21,7 +21,7 @@ export default function Home() {
           <a href="mailto:martin@molvaer.no">
             <span className="items-center">martin.molvaer.no</span>
           </a>
-          <div className="flex">
+          <div className="flex justify-center">
             {showIcon ? (
               <p className="cursor-pointer" onClick={setLight}>
                 ☀️
