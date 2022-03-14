@@ -1,5 +1,4 @@
-import { useState } from "react/cjs/react.development";
-
+import { useState } from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState("");
   const [showIcon, setShowIcon] = useState(false);
