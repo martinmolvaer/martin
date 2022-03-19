@@ -23,10 +23,6 @@ export default function Home() {
     }
   }
 
-  useEffect(() => {
-    getRandomInt(10);
-  }, []);
-
   const weirdFunc = () => {
     setWeird("rotate-180");
   };
