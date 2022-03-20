@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 export default function Home() {
   const [weird, setWeird] = useState("");
 
@@ -48,7 +49,7 @@ export default function Home() {
                 Say hi
               </div>
             </a>
-            <a href="https://github.com/martinmolvaer" target="_blank">
+            <a href="https://github.com/martinmolvaer">
               <div
                 className={`p-3 bg-black text-white rounded-md hover:scale-105 ease-in-out duration-300`}
               >
