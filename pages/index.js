@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 export default function Home() {
   const [weird, setWeird] = useState("");
 
-  console.log("hei");
+  console.log("heisann");
 
   function getRandomInt(max) {
     const randomNumber = Math.floor(Math.random() * max);
@@ -25,6 +25,11 @@ export default function Home() {
 
   return (
     <div className={`flex h-screen items-center justify-center `}>
+      <img
+        className="w-12 top-0 absolute left-0 p-4"
+        src="https://i.imgur.com/rz2KKCT.png"
+      ></img>
+
       <div className="flex absolute w-full top-0">
         <div className="flex justify-center w-full">
           <div className="p-4">
