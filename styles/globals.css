@@ -37,6 +37,11 @@ a {
   color: #0029ff !important;
 }
 
+::selection {
+  background: #0029ff;
+  color: #fffff2;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
