@@ -4,7 +4,7 @@ export default function Home() {
   console.log('Hei');
 
   useEffect(() => {
-    document.title = 'Molvaer';
+    document.title = 'Martin Molvær';
   });
 
   return (
