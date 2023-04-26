@@ -10,9 +10,7 @@ export default function Home() {
   return (
     <div className="sec">
       <div className="nav">
-        <a href="https://github.com/martinmolvaer" target="_blank">
-          Git
-        </a>
+        <a href="https://github.com/martinmolvaer">Git</a>
         {/* <a href="">Link</a>
         <a href="">Link</a> */}
       </div>
