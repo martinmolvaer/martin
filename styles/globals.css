@@ -2,14 +2,22 @@
 
 html,
 body {
+  --blue: #0029ff;
+  --ivory: #fffff2;
+
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #fff;
+  background: var(--ivory);
+}
+
+::selection {
+  background: var(--blue);
+  color: var(--ivory);
 }
 
 a {
-  color: blue;
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -21,7 +29,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fffff2;
+  background: var(--ivory);
   min-height: 100vh;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -38,7 +46,12 @@ a {
   font-weight: 500;
   display: flex;
   gap: 16px;
-  color: #0029ff;
+  color: var(--blue);
+  transition: 0.25s all ease;
+}
+
+.nav:hover {
+  text-decoration: underline;
 }
 
 .midmebaby {
@@ -52,13 +65,10 @@ a {
   width: 100%;
 }
 
-.midmebaby a {
-  color: #0029ff !important;
-}
-
-::selection {
-  background: #0029ff;
-  color: #fffff2;
+@media screen and (max-width: 567px) {
+  .midmebaby {
+    font-size: 35px;
+  }
 }
 
 @tailwind base;

@@ -11,7 +11,7 @@ export default function Home() {
     <div className="sec">
       <div className="nav">
         <a href="https://github.com/martinmolvaer" target="_blank">
-          git
+          Git
         </a>
         {/* <a href="">Link</a>
         <a href="">Link</a> */}
