@@ -64,7 +64,8 @@ a {
   right: 1%;
   font-weight: 400;
   font-size: 1.1rem;
-  gap: 16px;
+  gap: 1.25rem;
+  display: flex;
   transition: 0.25s all ease;
   padding: 2rem 2rem 2rem 2rem;
 }
