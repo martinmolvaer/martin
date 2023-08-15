@@ -4,21 +4,41 @@ html,
 body {
   --blue: #0029ff;
   --ivory: #fffff2;
-
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+.bigman {
+  min-height: 100vh;
+  background-color: var(--blue);
+  transition: 0.25s all ease;
+}
+
+.ivorybg {
   background: var(--ivory);
 }
 
+.click {
+  cursor: pointer;
+}
+
 ::selection {
-  background: var(--blue);
-  color: var(--ivory);
+  background: var(--ivory);
+  color: var(--blue);
 }
 
 a {
-  color: var(--blue);
+  color: var(--ivory);
   text-decoration: none;
+}
+
+.textblue {
+  color: var(--blue);
+}
+
+.ivorytext {
+  color: var(--ivory);
 }
 
 * {
@@ -29,8 +49,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--ivory);
-  min-height: 100vh;
+  min-height: 90vh;
   padding-top: 3em;
   padding-bottom: 3em;
 }
@@ -41,28 +60,37 @@ a {
 
 .nav {
   position: absolute;
-  top: 5%;
-  right: 10%;
-  font-weight: 500;
-  display: flex;
+  top: 1%;
+  right: 1%;
+  font-weight: 400;
+  font-size: 1.1rem;
   gap: 16px;
-  color: var(--blue);
   transition: 0.25s all ease;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .nav:hover {
   text-decoration: underline;
 }
 
-.midmebaby {
-  font-size: 50px;
-  font-weight: 500;
-  text-align: center;
+.wrapper {
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  color: var(--ivory);
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
 }
 
 @media screen and (max-width: 567px) {
