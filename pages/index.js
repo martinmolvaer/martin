@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className={`bigman ${bgColor}`}>
       <div className={`nav ${navColor}`}>
-        <a href="https://github.com/martinmolvaer">martin@molvaer.no</a>
+        <a href="mailto:martinmolvaer.no">martin@molvaer.no</a>
         <a href="https://github.com/martinmolvaer">Git</a>
         {/* <a href="">Link</a>
         <a href="">Link</a> */}
