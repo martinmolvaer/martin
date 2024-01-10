@@ -70,7 +70,10 @@ a {
   padding: 2rem 2rem 2rem 2rem;
 }
 
-.nav:hover {
+.link {
+}
+
+.link:hover {
   text-decoration: underline;
 }
 

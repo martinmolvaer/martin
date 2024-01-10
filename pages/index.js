@@ -23,8 +23,15 @@ export default function Home() {
   return (
     <div className={`bigman ${bgColor}`}>
       <div className={`nav ${navColor}`}>
-        <a href="mailto:martinmolvaer.no">martin@molvaer.no</a>
-        <a href="https://github.com/martinmolvaer">Git</a>
+        <a class="link" href="mailto:martinmolvaer.no">
+          martin@molvaer.no
+        </a>
+        <a class="link" href="https://github.com/martinmolvaer">
+          Git
+        </a>
+        <a class="link" href="http://pixel-rats.vercel.app">
+          Pixel Rats
+        </a>
         {/* <a href="">Link</a>
         <a href="">Link</a> */}
       </div>
@@ -34,7 +41,6 @@ export default function Home() {
             <div className="click" onClick={changeColor}>
               <Logo />
             </div>
-            {/* <h1 className="h1">Hei</h1> */}
           </div>
         </div>
       </div>
