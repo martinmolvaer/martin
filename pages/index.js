@@ -35,11 +35,7 @@ export default function Home() {
         <a className="link" href="https://dicemice.vercel.app/">
           Catzee/Dicemice
         </a>
-        <a
-          className="link"
-          href="robot-rust.vercel.app
-"
-        >
+        <a className="link" href="https://robot-rust.vercel.app/">
           Robot.exe
         </a>
         {/* <a href="">Link</a>
