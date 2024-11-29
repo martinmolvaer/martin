@@ -32,6 +32,12 @@ export default function Home() {
         <a className="link" href="https://robot-rust.vercel.app/">
           Robot.exe
         </a>
+        <a className="link" href="https://tacofy.vercel.app/">
+          Tacofy{' '}
+        </a>
+        <a className="link" href="https://realanimalclicker.vercel.app/">
+          Animal Clicker
+        </a>
         <a className="link" href="mailto:martin.molvaer@gmail.com">
           Kontakt
         </a>
