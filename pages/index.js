@@ -23,20 +23,17 @@ export default function Home() {
   return (
     <div className={`bigman ${bgColor}`}>
       <div className={`nav ${navColor}`}>
-        <a className="link" href="mailto:martin@molvaer.no">
-          martin@molvaer.no
-        </a>
-        <a className="link" href="https://github.com/martinmolvaer">
-          Github
-        </a>
-        <a className="link" href="http://pixel-rats.vercel.app">
+        {/* <a className="link" href="http://pixel-rats.vercel.app">
           Pixel Rats
-        </a>
+          </a> */}
         <a className="link" href="https://dicemice.vercel.app/">
-          Catzee/Dicemice
+          Dice Mice
         </a>
         <a className="link" href="https://robot-rust.vercel.app/">
           Robot.exe
+        </a>
+        <a className="link" href="mailto:martin.molvaer@gmail.com">
+          Kontakt
         </a>
         {/* <a href="">Link</a>
         <a href="">Link</a> */}
