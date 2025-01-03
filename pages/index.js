@@ -32,6 +32,9 @@ export default function Home() {
         <a className="link" href="https://robot-rust.vercel.app/">
           Robot.exe
         </a>
+        <a className="link" href="https://pilsometer.vercel.app/">
+          Pilsometer
+        </a>
         <a className="link" href="https://tacofy.vercel.app/">
           Tacofy{' '}
         </a>
