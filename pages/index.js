@@ -29,6 +29,9 @@ export default function Home() {
         <a className="link" href="https://dicemice.vercel.app/">
           Dice Mice
         </a>
+        <a className="link" href="https://to-duck.vercel.app">
+          To duck
+        </a>
         <a className="link" href="https://robot-rust.vercel.app/">
           Robot.exe
         </a>
