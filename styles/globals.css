@@ -9,6 +9,9 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.whitetext {
+  color: var(--ivory);
+}
 .bigman {
   min-height: 100vh;
   background-color: var(--blue);
@@ -61,7 +64,7 @@ a {
 .nav {
   position: absolute;
   top: 1%;
-  right: 1%;
+  left: 1%;
   font-weight: 400;
   font-size: 1rem;
   gap: 1.25rem;
@@ -70,7 +73,9 @@ a {
   padding: 2rem 2rem 2rem 2rem;
 }
 
-.link {
+.linknav {
+  color: var(--ivory);
+  font-size: 14px;
 }
 
 .link:hover {

@@ -1,61 +1,39 @@
-import { useState, useEffect } from 'react';
-import Logo from '../pages/components/logo.js';
+import { useEffect } from 'react';
 export default function Home() {
   useEffect(() => {
     document.title = 'Martin Molvær';
   });
 
-  const [bgColor, setBgColor] = useState('');
-  const [navColor, setNavColor] = useState('ivorytext');
-  const [originalBgColor, setOriginalBgColor] = useState('');
-  const [originalNavColor, setOriginalNavColor] = useState('ivorytext');
-
-  const changeColor = () => {
-    if (bgColor === '') {
-      setBgColor('ivorybg');
-      setNavColor('textblue');
-    } else {
-      setBgColor(originalBgColor);
-      setNavColor(originalNavColor);
-    }
-  };
-
   return (
-    <div className={`bigman ${bgColor}`}>
-      <div className={`nav ${navColor}`}>
-        {/* <a className="link" href="http://pixel-rats.vercel.app">
-          Pixel Rats
-          </a> */}
-        <a className="link" href="https://dicemice.vercel.app/">
-          Dice Mice
-        </a>
-        <a className="link" href="https://to-duck.vercel.app">
-          To duck
-        </a>
-        <a className="link" href="https://robot-rust.vercel.app/">
-          Robot.exe
-        </a>
-        <a className="link" href="https://pilsometer.vercel.app/">
-          Pilsometer
-        </a>
-        <a className="link" href="https://tacofy.vercel.app/">
-          Tacofy{' '}
-        </a>
-        <a className="link" href="https://realanimalclicker.vercel.app/">
-          Animal Clicker
-        </a>
-        <a className="link" href="mailto:martin.molvaer@gmail.com">
+    <div className="bigman">
+      <div className="nav">
+        <p className="whitetext">Martin Molvær</p>
+        <a className="whitetext linknav" href="mailto:martin.molvaer@gmail.com">
           Kontakt
         </a>
-        {/* <a href="">Link</a>
-        <a href="">Link</a> */}
       </div>
       <div className="sec">
         <div className="container ">
           <div className="wrapper">
-            <div className="click" onClick={changeColor}>
-              <Logo />
-            </div>
+            <a className="link" href="https://stromme.vercel.app">
+              Abonnoment-kalkulator
+            </a>
+            <a className="link" href="https://to-duck.vercel.app">
+              To duck
+            </a>
+            <a className="link" href="https://robot-rust.vercel.app/">
+              Robot.exe
+            </a>
+            <a className="link" href="https://pilsometer.vercel.app/">
+              Pilsometer
+            </a>
+            {/* <a className="link" href="https://tacofy.vercel.app/">
+          Tacofy{' '}
+        </a>
+       */}
+            <a className="link" href="mailto:martin.molvaer@gmail.com">
+              Kontakt
+            </a>
           </div>
         </div>
       </div>
