@@ -18,6 +18,9 @@ export default function Home() {
             <a className="link" href="https://stromme.vercel.app">
               Abonnoment-kalkulator
             </a>
+            <a className="link" href="https://habits-three-vert.vercel.app/">
+              Habit tracker
+            </a>
             <a className="link" href="https://to-duck.vercel.app">
               To duck
             </a>
